@@ -1,28 +1,47 @@
-<<<<<<< HEAD
-# React + Vite
+# 🌸 Neha Kaji — Mobile Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for my **personal portfolio website**, built to showcase my **academic journey**, **professional experience**, **leadership roles**, and **real-world mobile development projects**.
 
-Currently, two official plugins are available:
+The portfolio is designed with a **mobile-first mindset**, focusing primarily on **Android development**, while maintaining a clean, modern, and lively user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Website:**  
+👉 https://neha-kaji-portfolio.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## ✨ Highlights
 
-Note: This will impact Vite dev & build performances.
+- 📱 Android-first portfolio with real APK downloads
+- 🎨 Pink × Blue ombré theme for a lively, modern feel
+- 🚀 Smooth animations using Framer Motion
+- 🧠 Story-driven sections (About, Education, Leadership, Experience)
+- 📄 Integrated resume (view & download)
+- 🖼️ Play Store–style project screenshots
+- ⚙️ Built with performance and scalability in mind
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Welcome to my Portfolio!!
+## 🛠️ Tech Stack
 
-## This is my first website
+- **Frontend:** React + Vite
+- **Animations:** Framer Motion
+- **Styling:** CSS (custom, component-driven)
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
 
-## Technologies used - 
-- HTML
-- CSS
->>>>>>> ff415e1b60a67329e5408e64a0520ef59ddf5f31
+---
+
+## 📂 Project Structure
+
+```text
+├── public/
+│   ├── apk/                # APK files for Android projects
+│   └── resume.pdf          # Resume (view & download)
+│
+├── src/
+│   ├── components/         # Reusable UI components
+│   ├── data/               # Project and content data
+│   ├── App.jsx             # App entry
+│   └── main.jsx            # React bootstrap
+│
+└── README.md
