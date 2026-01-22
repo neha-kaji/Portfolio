@@ -51,8 +51,8 @@ const styles = {
   },
   apkBtn: {
     padding: "10px 16px",
-    background: "#22c55e",
-    color: "#022c22",
+    background: "#d690b6",
+    color: "#1f022c",
     borderRadius: "10px",
     fontWeight: "600"
   },
