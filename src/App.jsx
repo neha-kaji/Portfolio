@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Projects from "./components/Projects"
-import Skills from "./components/Skills"
 import Footer from "./components/Footer"
 import AndroidStats from "./components/AndroidStats"
 import AndroidNotice from "./components/AndroidNotice"
@@ -36,9 +35,6 @@ export default function App() {
         <AndroidStats />
       </Reveal>
       <Reveal delay={0.7}>
-        <Skills />
-      </Reveal>
-      <Reveal delay={0.8}>
         <Footer />
       </Reveal>
     </>
