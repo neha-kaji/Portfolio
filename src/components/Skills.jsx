@@ -29,7 +29,8 @@ export default function Skills() {
 const styles = {
   section: {
     padding: "80px 40px",
-    textAlign: "center"
+    textAlign: "center",
+    color: "#f9fafb"
   },
   grid: {
     marginTop: "30px",

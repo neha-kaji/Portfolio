@@ -28,12 +28,14 @@ body::before {
 body {
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Menlo", "Monaco", "Consolas", monospace;
   background: linear-gradient(180deg, #0b1020 0%, #0a1224 60%, #0b1020 100%);
-  color: #e5e7eb;
+  color: #eef2f7;
   line-height: 1.6;
 }
 
 h1, h2, h3 {
   letter-spacing: -0.02em;
+  color: #f8fafc;
+  font-weight: 700;
 }
 
 section {
@@ -49,7 +51,7 @@ a {
 
 h2 {
   font-size: 28px;
-  color: #e2e8f0;
+  color: #f8fafc;
 }
 
 h2::after {

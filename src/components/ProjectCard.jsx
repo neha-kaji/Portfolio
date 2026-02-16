@@ -42,7 +42,9 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     gap: "8px",
-    margin: "16px 0"
+    margin: "16px 0",
+    color: "#e2e8f0",
+    fontWeight: "600"
   },
   actions: {
     display: "flex",

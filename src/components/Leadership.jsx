@@ -60,6 +60,6 @@ const styles = {
   text: {
     marginTop: "10px",
     lineHeight: "1.7",
-    color: "#cbd5e1"
+    color: "#e5e7eb"
   }
 }

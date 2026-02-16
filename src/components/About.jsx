@@ -46,13 +46,13 @@ const styles = {
   text: {
     marginTop: "18px",
     fontSize: "16px",
-    color: "#29406d",
+    color: "#cbd5e1",
     lineHeight: "1.7"
   },
   textMuted: {
     marginTop: "18px",
     fontSize: "15px",
-    color: "#54647a",
+    color: "#9ca3af",
     lineHeight: "1.7"
   }
 }

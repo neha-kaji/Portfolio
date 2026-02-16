@@ -29,6 +29,24 @@ export default function DomainExperience() {
           text="Defined SLOs and alerts; built dashboards and tracing to cut MTTR. Practiced incident response, postmortems, and runbooks to improve resilience."
         />
       </div>
+
+      <div style={styles.devSection}>
+        <h3 style={styles.devHeading}>Development Skills</h3>
+        <div style={styles.skillsWrap}>
+          {[
+            "Android (Java)",
+            "Flutter",
+            "React.js",
+            "REST APIs",
+            "MVVM",
+            "Firebase",
+            "Testing",
+            "Performance"
+          ].map((s, i) => (
+            <span key={i} style={styles.skillChip}>{s}</span>
+          ))}
+        </div>
+      </div>
     </motion.section>
   )
 }
@@ -53,6 +71,29 @@ const styles = {
     gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
     gap: "20px",
     marginTop: "30px"
+  },
+  devSection: {
+    marginTop: "36px"
+  },
+  devHeading: {
+    fontSize: "20px",
+    color: "#f8fafc",
+    marginBottom: "12px"
+  },
+  skillsWrap: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "10px"
+  },
+  skillChip: {
+    padding: "10px 14px",
+    background: "#0b1220",
+    border: "1px solid #1e293b",
+    color: "#e2e8f0",
+    borderRadius: "999px",
+    fontSize: "13px",
+    fontWeight: "600",
+    boxShadow: "0 10px 24px rgba(2,6,23,0.5)"
   },
   card: {
   background: "#0b1220",
