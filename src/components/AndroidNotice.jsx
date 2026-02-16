@@ -15,9 +15,9 @@ const styles = {
     maxWidth: "900px",
     margin: "40px auto",
     padding: "16px 20px",
-    background: "#ffffff",
-    border: "1px solid #e2e8f0",
+    background: "#0b1220",
+    border: "1px solid #1e293b",
     borderRadius: "12px",
-    color: "#29406d"
+    color: "#cbd5e1"
   }
 }

@@ -69,7 +69,7 @@ const styles = {
   description: {
     maxWidth: "720px",
     margin: "20px auto 0",
-    color: "#051a36",
+    color: "#cbd5e1",
     fontSize: "17px"
   },
   buttons: {

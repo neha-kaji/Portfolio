@@ -40,10 +40,10 @@ const styles = {
   },
   skillCard: {
     padding: "12px 18px",
-    background: "#ffffff",
-    border: "1px solid #e2e8f0",
+    background: "#0b1220",
+    border: "1px solid #1e293b",
     borderRadius: "20px",
-    boxShadow: "0 14px 40px rgba(15,23,42,0.08)",
+    boxShadow: "0 14px 30px rgba(2,6,23,0.6)",
     fontSize: "14px",
     fontWeight: "500"
   }
