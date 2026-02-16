@@ -16,7 +16,9 @@ const styles = {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "20px 40px",
-    borderBottom: "1px solid #1e293b"
+    borderBottom: "1px solid #111827",
+    background: "rgba(15,23,42,0.9)",
+    backdropFilter: "blur(8px)"
   },
   links: {
     display: "flex",

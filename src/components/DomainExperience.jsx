@@ -55,16 +55,16 @@ const styles = {
     marginTop: "30px"
   },
   card: {
-  background: "#ffffff",
+  background: "#0b1220",
   borderRadius: "20px",
-  border: "1px solid #e2e8f0",
+  border: "1px solid #1e293b",
   padding: "26px",
-  boxShadow: "0 14px 40px rgba(15,23,42,0.08)",
+  boxShadow: "0 14px 30px rgba(2,6,23,0.6)",
   transition: "all 0.3s ease"
 },
   text: {
     marginTop: "10px",
-    color: "#29406d",
+    color: "#cbd5e1",
     lineHeight: "1.6"
   }
 }

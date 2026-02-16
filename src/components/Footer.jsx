@@ -57,10 +57,10 @@ const styles = {
   footer: {
     padding: "80px 20px",
     textAlign: "center",
-    borderTop: "1px solid #1e293b",
+    borderTop: "1px solid #111827",
     marginTop: "100px",
     background:
-      "linear-gradient(180deg, rgba(2,6,23,0.6), rgba(2,6,23,0.9))"
+      "linear-gradient(180deg, rgba(2,6,23,0.9), rgba(0,0,0,1))"
   },
   subtitle: {
     marginTop: "10px",
@@ -72,7 +72,7 @@ const styles = {
     marginTop: "20px",
     fontSize: "16px",
     fontWeight: "600",
-    color: "#38bdf8"
+    color: "#22c55e"
   },
   links: {
     marginTop: "25px",
