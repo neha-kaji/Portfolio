@@ -12,33 +12,26 @@ export default function About() {
       <h2>About Me</h2>
 
       <p style={styles.text}>
-        They say 'there’s an app for that,' but I’m the person who makes sure those apps actually 
-        work—and work beautifully. As a Mobile Engineer with a passion for end-to-end delivery, 
-        I take pride in seeing a project through from the first line of the manifest to the final production
-        release.
-
+        I build reliable software delivery systems—taking code from commit to production with
+        speed, safety, and observability. As a DevOps Engineer, I focus on automation, repeatable
+        infrastructure, and feedback loops that let teams ship confidently.
       </p>
 
       <p style={styles.text}>
-        My toolkit is built on Android, Flutter, and Firebase, 
-        but my real strength is my 'Full Lifecycle' perspective. 
-        I enjoy the challenge of integrating complex APIs and real-time 
-        data flows into interfaces that feel intuitive and responsive. 
-        I’m obsessed with performance—if it’s not snappy, it’s not finished!
+        My toolkit includes CI/CD (pipelines, testing gates, security scans), Infrastructure as Code
+        (Terraform), containerization and orchestration (Docker, Kubernetes), and cloud services.
+        I care deeply about reliability—SLOs, actionable alerts, and dashboards that tell the truth.
       </p>
 
       <p style={styles.text}>
-        Beyond the Code:
-        Community & Mentorship: I don’t keep my knowledge in a silo. I’m an active voice in developer circles and love helping juniors navigate the ever-changing mobile landscape.
-     </p>
-        <p style={styles.text}>
-            Ownership: I treat every project like it’s my own startup. I’m not just building a feature; I’m building a tool that solves a human problem.
+        Beyond the pipelines, I value collaboration and mentorship—helping teams adopt good
+        engineering hygiene, blameless postmortems, and runbooks. I’m pragmatic about tooling,
+        strict about security, and relentless about reducing toil.
       </p>
 
       <p style={styles.text}>
-        If you’re looking for a Mobile Engineer who combines technical expertise with a 
-        holistic view of product development, let’s connect. 
-        Together, we can build mobile experiences that don’t just meet expectations—they exceed them.
+        If you’re looking for someone who can make delivery safer, faster, and more visible,
+        let’s connect and turn deployments into a routine, not an event.
       </p>
     </motion.section>
   )

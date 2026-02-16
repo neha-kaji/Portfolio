@@ -9,24 +9,24 @@ export default function DomainExperience() {
       transition={{ duration: 0.6 }}
       viewport={{ once: true }}
     >
-      <h2>Experience Across Domains</h2>
+      <h2>DevOps Focus Areas</h2>
 
       <div style={styles.grid}>
         <Card
-          title="Mobile Development"
-          text="Designed and built Android and Flutter applications with authentication, real-time data, and production-ready features."
+          title="CI/CD & Automation"
+          text="Designed pipelines for build, test, security scans, and progressive delivery using modern tooling. Reduced lead time and improved release confidence."
         />
         <Card
-          title="Web Development"
-          text="Worked on ERP systems and e-commerce platforms using React, REST APIs, and backend services to support real business workflows."
+          title="Cloud & IaC"
+          text="Provisioned reproducible infrastructure with Terraform; implemented secure networking, managed services, and least-privilege access controls."
         />
         <Card
-          title="IoT & Embedded Systems"
-          text="Developed IoT-based solutions integrating hardware sensors, microcontrollers, and mobile applications for real-time monitoring."
+          title="Containers & Kubernetes"
+          text="Containerized services with Docker; deployed on Kubernetes with Helm charts, health probes, resource policies, and blue/green or canary strategies."
         />
         <Card
-          title="Community & Mentorship"
-          text="Mentored juniors in Android and DSA, organized technical events, and helped students navigate real-world development practices."
+          title="Observability & Reliability"
+          text="Defined SLOs and alerts; built dashboards and tracing to cut MTTR. Practiced incident response, postmortems, and runbooks to improve resilience."
         />
       </div>
     </motion.section>

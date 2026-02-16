@@ -13,8 +13,7 @@ export default function Footer() {
       <h3>Let’s build something impactful</h3>
 
       <p style={styles.subtitle}>
-        Mobile-first engineer focused on Android, performance, and real-world
-        products.
+        DevOps engineer focused on CI/CD, cloud infrastructure, reliability, and developer velocity.
       </p>
 
       <a href="mailto:nehakaji1606@gmail.com" style={styles.email}>
@@ -48,7 +47,7 @@ export default function Footer() {
       </div>
 
       <p style={styles.copy}>
-        Built from scratch · Mobile-first · © 2026 Neha Kaji
+        Built from scratch · DevOps-focused · © 2026 Neha Kaji
       </p>
     </motion.footer>
   )

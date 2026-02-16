@@ -13,8 +13,8 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        Mobile Engineer
-        <span style={styles.highlight}> · Android First</span>
+        DevOps Engineer
+        <span style={styles.highlight}> · CI/CD & Cloud</span>
       </motion.h1>
 
       <motion.p
@@ -23,9 +23,9 @@ export default function Hero() {
         transition={{ delay: 0.35 }}
         style={styles.description}
       >
-        I design and build production-ready Android applications with a strong
-        focus on performance, clean architecture, Firebase-backed systems, and
-        real users — not demos.
+        I design and operate reliable delivery pipelines, cloud infrastructure, and
+        observability systems. Strong focus on automation, Infrastructure as Code,
+        containerized workloads, and resilience—shipping features safely and often.
       </motion.p>
 
       <motion.div
@@ -40,7 +40,7 @@ export default function Hero() {
           whileHover={{ scale: 1.08 }}
           whileTap={{ scale: 0.95 }}
         >
-          View Android Projects
+          Explore DevOps & Projects
         </motion.a>
 
         <motion.a

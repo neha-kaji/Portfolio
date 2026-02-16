@@ -2,17 +2,17 @@ export const projects = [
   {
     title: "Krishi Sahayak",
     description:
-      "Android app helping farmers access government schemes in regional languages.",
+      "Provides links to government schemes focused on farmers’ welfare, in regional languages. Curates official resources, eligibility details, and application pages so farmers can discover and apply faster.",
     tech: ["Android", "Java", "Firebase"],
     apk: "/apk/krishi-sahayak.apk",
     apkNote: "Requires enabling “Install unknown apps” in Android settings."
   },
   {
-    title: "Blood Connect",
+    title: "PerFin",
     description:
-      "Real-time donor–receiver matching Android application.",
+      "Personal finance manager that tracks expenses and savings and sends timely alerts. Categorizes spending, supports goals, and notifies when budgets are exceeded or savings targets are reached.",
     tech: ["Android", "Firebase"],
-    apk: "/apk/blood-connect.apk",
+    apk: "/apk/perfin.apk",
     apkNote: "Built for Android 8+ · Firebase-backed realtime system."
   }
 ]
